@@ -1,0 +1,11 @@
+[Security]
+EAP-Method=PEAP
+#EAP-Identity=open@identity.com
+EAP-PEAP-CACert={route/to/USERTrust_RSA_Certification_Authority.pem}
+EAP-PEAP-Phase2-Method=MSCHAPV2
+EAP-PEAP-Phase2-Identity={UTD-ID}
+EAP-PEAP-Phase2-Password={UTD-Password}
+EAP-PEAP-ServerDomainMask=*.utdallas.edu
+
+[Settings]
+AutoConnect=true
